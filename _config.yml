@@ -25,8 +25,12 @@ author: phlow
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://phlow.github.io'
-baseurl: '/feeling-responsive'
+# url: 'https://phlow.github.io'
+# baseurl: '/feeling-responsive'
+
+remote_theme : phlow/feeling-responsive
+url                      : "https://ehson-ai.github.io" # the base hostname & protocol for your site e.g. "https://phlow.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
@@ -270,3 +274,4 @@ asciidoctor:
     source-highlighter: coderay
     coderay-css: style
     icons: font
+
